@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.converter-body {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 2px 1px #cacaca;
+}
+.converter-title {
+    text-align: center;
+    margin: 13px 0;
+    font-size: 40px;
+}
+input {
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+}
+#input {
+    margin-left: 25px;
+}
+#inputType, #resultType {
+    width: 165px;
+    margin-left: 25px;
+    color: red;
+    border: 1px solid black;
+}
+#resultType {
+    margin-left: 23px;
+}
